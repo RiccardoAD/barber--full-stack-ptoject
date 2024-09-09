@@ -130,10 +130,6 @@ const Register = () => {
           {errors.password_confirmation && <div className="text-danger">{errors.password_confirmation[0]}</div>}
         </div>
        
-          <label htmlFor="profile_img" className="form-label">
-            Profile Image
-          </label>
-          
         <button type="submit" className="card-button1 w-100">
           Register
         </button>

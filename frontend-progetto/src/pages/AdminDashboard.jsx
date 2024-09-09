@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { Table } from "react-bootstrap";
-import { MyChart } from "../components/MyChart";
 import "../styles/Dashboard.css";
 
 const AdminDashboard = () => {
@@ -207,7 +206,7 @@ const AdminDashboard = () => {
       </div>
 
       {error && <p style={{ color: "red" }}>{error}</p>}
-      <MyChart />
+     
     </div>
   );
 };

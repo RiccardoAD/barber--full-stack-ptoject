@@ -39,8 +39,8 @@ function Nav() {
   }, [scrollDir]);
   return (
     <div>
-      <div className=' bg-opacity-20'></div>
-      <nav style={scrollDir === 'scrolling up' ? {animation: 'slideDown 200ms ease forwards'} : {animation: 'slideUp 200ms ease forwards'}} className="fixed top-0 nav flex w-full bg-opacity-20 items-center justify-between bg-stone-400 text-neutral-300 h-20 px-4  z-40">
+      <div className='bg-neutral-950 bg-opacity-50'></div>
+      <nav style={scrollDir === 'scrolling up' ? {animation: 'slideDown 200ms ease forwards'} : {animation: 'slideUp 200ms ease forwards'}} className="fixed top-0 nav flex w-full  bg-neutral-950 bg-opacity-70 items-center justify-between bg-stone-400 text-neutral-300 h-20 px-4  z-40">
     <Link onClick={() => setMobileMenuActive(false)} to="/">
     <img src={logo} className="px-2 w-44"></img>
     </Link>
